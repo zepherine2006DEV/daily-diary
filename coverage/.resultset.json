@@ -12,8 +12,34 @@
         1,
         null,
         null
+      ],
+      "/Users/student/Projects/daily-diary/spec/hello_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Projects/daily-diary/lib/hello.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        1,
+        2,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1560945843
+    "timestamp": 1560957318
   }
 }

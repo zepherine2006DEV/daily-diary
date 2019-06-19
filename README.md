@@ -9,14 +9,26 @@ This project is a solution for the daily diary challenge set by Makers Academy. 
 1) Initialise Bundler ("bundle init")
 2) Specify gems for sinatra, rspec, code coverage, rubocop, and capybara in the gemfile.
 3) Install gems.
+4) Add a rubocop.yml file
 
-4) Initialise rspec ("rspec --init").
-5) Update .rspec output options for colour and format
-6) Configure the tests with required code, environment variables, and refernce to the controller app (spec_helper.rb)
+5) Initialise rspec ("rspec --init").
+6) Update .rspec output options for colour and format
+7) Configure the tests with required code, environment variables, reference to the controller app, and code coverage (spec_helper.rb)
 
-7) Folder structure (views, lib)
+8) Folder structure (views, lib)
 
-8) Create a basic sinatra controller app file with one route (app.rb)
-9) Configure rackup to run the app (config.ru)
-10) Create a single feature test for "Hello World"
-11) Implement feature using a view.
+9) Create a basic sinatra controller app file with one route (app.rb)
+10) Configure rackup to run the app (config.ru)
+11) Create a single feature test for "Hello World"
+12) Implement feature using a view.
+
+# Setup a test database
+
+13) Create a Hello unit test to check we can read from the database
+14) Create a basic test database
+```
+$> psql
+admin=# CREATE DATABASE "diary_test";
+admin=# CREATE TABLE hello(id SERIAL PRIMARY KEY, message VARCHAR(60));
+admin=# INSERT INTO hello VALUES (1, 'Hello World');
+```
