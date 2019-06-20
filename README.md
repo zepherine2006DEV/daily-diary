@@ -24,11 +24,13 @@ This project is a solution for the daily diary challenge set by Makers Academy. 
 
 # Setup a test database
 
-13) Create a Hello unit test to check we can read from the database
-14) Create a basic test database
+13) Create a basic test database
 ```
 $> psql
 admin=# CREATE DATABASE "diary_test";
+admin=# \c diary_test;
 admin=# CREATE TABLE hello(id SERIAL PRIMARY KEY, message VARCHAR(60));
-admin=# INSERT INTO hello VALUES (1, 'Hello World');
 ```
+14) Run a database setup method which runs TRUNCATE before each test. (setup_test_database.rb)
+15) Add a Hello World model class to read message from the database.
+16) Add a Hello World feature to display message via a view.
