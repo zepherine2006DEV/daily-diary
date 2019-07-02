@@ -33,6 +33,7 @@ GEM
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
+    rake (12.3.2)
     regexp_parser (1.5.1)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
@@ -82,6 +83,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   pg
+  rake
   rspec
   rubocop (= 0.56.0)
   simplecov

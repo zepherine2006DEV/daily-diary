@@ -3,7 +3,7 @@ require './lib/hello'
 
 class DailyDiary < Sinatra::Base
   get '/' do
-    @message = Hello.all
+    @hello = Hello.all.first
     erb :hello_world
   end
 

@@ -1,0 +1,1 @@
+CREATE TABLE hello(id SERIAL PRIMARY KEY, message VARCHAR(60));
